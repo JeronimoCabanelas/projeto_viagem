@@ -1,0 +1,38 @@
+li a {
+
+  text-decoration: none;
+  color: #05073C;
+  font-size: 20px;
+  padding: 25px;
+}
+
+ul {
+  display: flex;
+  /*ativa a propriedade de alinhamento*/
+  flex-direction: row;
+  /*coloca os elementos na horizontal*/
+}
+
+li {
+  list-style: none;
+  /*remove os pontos das lista*/
+}
+
+nav {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.nome-cinza {
+  color: #757575;
+}
+
+.btn {
+  background-color: #EB662B;
+  border-radius: 55px;
+  height: 44px;
+  width: 83.3px;
+  border: none;
+}
