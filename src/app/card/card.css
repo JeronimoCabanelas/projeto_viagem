@@ -1,32 +1,33 @@
-.abaixo-banner {
-  width: 1290px;
-  height: 340px;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
-
-
+.benefits-container {
+  padding: 80px 10%;
+  text-align: left;
 }
 
-
-.titulo1 {
-  width: 380px;
-  height: 45px;
-  font-size: 29px;
-  font-weight: bold;
-  align-items: flex-start; 
-  display: flex;
-  justify-content: center;
+.benefits-container h2 {
+  font-size: 28px;
+  color: #05073c;
+  margin-bottom: 40px;
 }
 
-.bilhete-texto {
-  height: 76.25px;
-  width: 255.52999877929688px;
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 30px;
 }
 
-.caixa-bilhete {
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 70px;
+.benefit-item img {
+  width: 50px;
+  margin-bottom: 20px;
+}
+
+.benefit-item h3 {
+  font-size: 18px;
+  color: #05073c;
+  margin-bottom: 10px;
+}
+
+.benefit-item p {
+  font-size: 14px;
+  color: #696984;
+  line-height: 1.6;
 }

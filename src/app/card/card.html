@@ -1,16 +1,29 @@
-<section class="why-choose-container">
-
-    <h2 class="main-title">{{ tituloPrincipal }}</h2>
-
-    <div class="feaures-card">
-        @for (item of diferenciais; track item.titulo) {
-            <div class="feature-card">
-
-                <img [src]="item.icone" [alt]="item.titulo" class="feature-icon">
-                <h3 class="feature-title">{{ item.titulo }}</h3>
-                <p class="feature-description">{{ item.descricao }}</p>
-            </div>
-        }
+<section class="benefits-container">
+  <h2>Why choose Tourz</h2>
+  
+  <div class="benefits-grid">
+    <div class="benefit-item">
+      <img src="/public/cards/ticket.svg fill.png" alt="Flexibility">
+      <h3>Ultimate flexibility</h3>
+      <p>You're in control, with free cancellation and payment options to satisfy any plan or budget.</p>
     </div>
 
+    <div class="benefit-item">
+      <img src="assets/cards/hot-air-balloon.svg.png" alt="Experiences">
+      <h3>Memorable experiences</h3>
+      <p>Browse and book tours and activities so incredible, you'll want to tell your friends.</p>
+    </div>
+
+    <div class="benefit-item">
+      <img src="assets/cards/diamond.svg.png" alt="Quality">
+      <h3>Quality at our core</h3>
+      <p>High-quality standards. Millions of reviews. A tourz company.</p>
+    </div>
+
+    <div class="benefit-item">
+      <img src="assets/cards/medal.svg.png" alt="Support">
+      <h3>Award-winning support</h3>
+      <p>New price? New plan? No problem. We're here to help, 24/7.</p>
+    </div>
+  </div>
 </section>

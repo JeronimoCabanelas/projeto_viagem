@@ -1,0 +1,78 @@
+.trending-container {
+  padding: 20px 10% 80px;
+}
+
+.trending-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.see-all {
+  color: #05073c;
+  text-decoration: underline;
+  font-weight: 500;
+}
+
+.destinations-list {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+  overflow-x: auto; /* Para mobile-friendly */
+}
+
+.destination-card {
+  text-align: center;
+  min-width: 120px;
+}
+
+.img-wrapper {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin: 0 auto 15px;
+}
+
+.img-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform 0.3s;
+}
+
+.img-wrapper:hover img {
+  transform: scale(1.1);
+}
+
+.destination-card h4 {
+  font-size: 16px;
+  color: #05073c;
+  margin-bottom: 5px;
+}
+
+.destination-card span {
+  font-size: 13px;
+  color: #696984;
+}
+
+.pagination {
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin-top: 40px;
+}
+
+.dot {
+  width: 6px;
+  height: 6px;
+  background: #ddd;
+  border-radius: 50%;
+}
+
+.dot.active {
+  background: #05073c;
+  width: 20px; /* Estilo pílula para o ativo */
+  border-radius: 10px;
+}

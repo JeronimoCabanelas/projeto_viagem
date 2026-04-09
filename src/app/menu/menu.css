@@ -1,38 +1,44 @@
-li a {
-
-  text-decoration: none;
-  color: #05073C;
-  font-size: 20px;
-  padding: 25px;
-}
-
-ul {
+.navbar {
   display: flex;
-  /*ativa a propriedade de alinhamento*/
-  flex-direction: row;
-  /*coloca os elementos na horizontal*/
-}
-
-li {
-  list-style: none;
-  /*remove os pontos das lista*/
-}
-
-nav {
-  display: flex;
-  flex-direction: row;
   align-items: center;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding: 15px 5%;
+  background: white;
 }
 
-.nome-cinza {
-  color: #757575;
+.logo {
+  display: flex;
+  align-items: center;
+  color: #f16b35;
+  font-weight: bold;
+  font-size: 24px;
 }
 
-.btn {
-  background-color: #EB662B;
-  border-radius: 55px;
-  height: 44px;
-  width: 83.3px;
+.search-bar input {
+  padding: 8px 15px;
+  border-radius: 20px;
+  border: 1px solid #ddd;
+  width: 300px;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #333;
+  font-size: 14px;
+}
+
+.btn-login {
+  background: #f16b35;
+  color: white;
   border: none;
+  padding: 10px 25px;
+  border-radius: 25px;
+  cursor: pointer;
 }

@@ -13,3 +13,4 @@ import { Card} from './card/card'
 export class App {
   protected readonly title = signal('projeto-viagens');
 }
+
